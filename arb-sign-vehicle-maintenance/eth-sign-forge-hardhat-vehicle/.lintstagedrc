@@ -1,0 +1,4 @@
+{
+  "*.sol": ["npm run lint:sol"],
+  "*.ts": ["npm run prettier:check"]
+}

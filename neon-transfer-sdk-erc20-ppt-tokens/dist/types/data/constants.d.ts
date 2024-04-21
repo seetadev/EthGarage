@@ -1,0 +1,16 @@
+export declare const NEON_TOKEN_DECIMALS = 9;
+export declare const NEON_TOKEN_MINT_DECIMALS = 18;
+export declare const NEON_TRANSFER_CONTRACT_DEVNET = "0x5238c694a8db837fff8c4068859e765b978a7607";
+export declare const SOL_TRANSFER_CONTRACT_DEVNET = "0xf9949Ae1f5982181d163B1f095b010CeD2e8D6f7";
+export declare const NEON_TRANSFER_CONTRACT_TESTNET = "0x5238c694a8db837fff8c4068859e765b978a7607";
+export declare const NEON_TRANSFER_CONTRACT_MAINNET = "0xaC6FEaF379B01e3B0888597c53bb37e2B0b513ab";
+export declare const KECCAK_PROGRAM = "KeccakSecp256k11111111111111111111111111111";
+export declare const INCINERATOR_PUBKEY = "1nc1nerator11111111111111111111111111111111";
+export declare const SYSVAR_INSTRUCTION_PUBKEY = "Sysvar1nstructions1111111111111111111111111";
+export declare const COMPUTE_BUDGET_ID = "ComputeBudget111111111111111111111111111111";
+export declare const NEON_HEAP_FRAME = "262144";
+export declare const NEON_COMPUTE_UNITS = "500000";
+export declare const NEON_TOKEN_MINT_DEVNET = "89dre8rZjLNft7HoupGiyxu3MNftR577ZYu8bHe2kK7g";
+export declare const SOL_TOKEN_MINT_DEVNET = "89dre8rZjLNft7HoupGiyxu3MNftR577ZYu8bHe2kK7g";
+export declare const NEON_TOKEN_MINT_MAINNET = "NeonTjSjsuo3rexg9o6vHuMXw62f9V7zvmu8M8Zut44";
+export declare const SOL_TOKEN_MINT_MAINNET = "NeonTjSjsuo3rexg9o6vHuMXw62f9V7zvmu8M8Zut44";

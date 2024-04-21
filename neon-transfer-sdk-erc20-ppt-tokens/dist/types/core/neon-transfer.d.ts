@@ -1,0 +1,13 @@
+import { Amount, NeonAddress, SPLToken } from '../models';
+import { PublicKey, Transaction, TransactionInstruction } from '@solana/web3.js';
+import { TransactionConfig } from 'web3-core';
+import Web3 from 'web3';
+export declare function solanaNEONTransferTransaction(solanaWallet: PublicKey, neonWallet: NeonAddress, neonEvmProgram: PublicKey, neonTokenMint: PublicKey, token: SPLToken, amount: Amount, chainId?: number, serviceWallet?: PublicKey, rewardAmount?: Amount): Promise<Transaction>;
+export declare function createNeonDepositToBalanceInstruction(chainId: number, solanaWallet: PublicKey, tokenAddress: PublicKey, neonWallet: string, neonEvmProgram: PublicKey, tokenMint: PublicKey, serviceWallet?: PublicKey): TransactionInstruction;
+export declare function createNeonDepositInstruction(solanaWallet: PublicKey, neonPDAWallet: PublicKey, depositWallet: PublicKey, neonWallet: string, neonEvmProgram: PublicKey, neonTokenMint: PublicKey, serviceWallet?: PublicKey): TransactionInstruction;
+export declare function createNeonTransferInstruction(neonTokenMint: PublicKey, solanaWallet: PublicKey, serviceWallet: PublicKey, rewardAmount: Amount): TransactionInstruction;
+export declare function neonTransactionDataWeb3(web3: Web3, solanaWallet: PublicKey): string;
+export declare function wrappedNeonTransactionDataWeb3(web3: Web3, token: SPLToken, amount: Amount): string;
+export declare function wrappedNeonTransaction(from: string, to: string, data: string): TransactionConfig;
+export declare function neonNeonTransaction(from: string, to: string, amount: Amount, data: string): TransactionConfig;
+export declare function neonNeonTransactionWeb3(web3: Web3, from: string, to: string, solanaWallet: PublicKey, amount: Amount, gasLimit?: number): Promise<TransactionConfig>;

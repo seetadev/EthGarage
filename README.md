@@ -6,9 +6,12 @@ Track, trace and record spare parts inventory, repair work orders, invoices and 
 ## Avail 
 
 We are integrating Avail’s Light Client features with zk Vehicle wallet that seamlessly works across key Ethereum L2 Blockchains and leverages Zero Knowledge Proofs for Crypto-transactions and Identity proofs.
-Android version at (please download tablet.apk): https://github.com/seetadev/EthGarage/blob/main/work-order-mgr-avail-da-layer/avail-lc-android-lib/avail-tablet-dapp.apk
-Lib integration at https://github.com/seetadev/EthGarage/tree/main/work-order-mgr-avail-da-layer/avail-lc-android-lib
-demo, screenshots at https://drive.google.com/drive/u/1/folders/19C_rphxhFje9zgcCKu54lBq7oQ7reKJP and https://drive.google.com/drive/u/1/folders/1Z2sfjos3oJWJrxmbY_tw0mU1yvgQ0NA_
+
+- Android version at (please download tablet.apk): https://github.com/seetadev/EthGarage/blob/main/work-order-mgr-avail-da-layer/avail-lc-android-lib/avail-tablet-dapp.apk
+
+- Lib integration at https://github.com/seetadev/EthGarage/tree/main/work-order-mgr-avail-da-layer/avail-lc-android-lib
+
+- demo, screenshots at https://drive.google.com/drive/u/1/folders/19C_rphxhFje9zgcCKu54lBq7oQ7reKJP and https://drive.google.com/drive/u/1/folders/1Z2sfjos3oJWJrxmbY_tw0mU1yvgQ0NA_
 
 We are also developing custom rollapps with Avail DA and tools to enable no code, low code analytics tooling using an open source analytics and visualization tool, namely Avail XLS, which enables tabulation, organization, collaboration, visualization, graphing and charting.
 

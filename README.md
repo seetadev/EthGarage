@@ -3,7 +3,9 @@ Track, trace and record spare parts inventory, repair work orders, invoices and 
 
 # Blockchain Eco-system
 
-Avail: We are integrating Avail’s Light Client features with zk Vehicle wallet that seamlessly works across key Ethereum L2 Blockchains and leverages Zero Knowledge Proofs for Crypto-transactions and Identity proofs.
+## Avail 
+
+We are integrating Avail’s Light Client features with zk Vehicle wallet that seamlessly works across key Ethereum L2 Blockchains and leverages Zero Knowledge Proofs for Crypto-transactions and Identity proofs.
 Android version at (please download tablet.apk): https://github.com/seetadev/EthGarage/blob/main/work-order-mgr-avail-da-layer/avail-lc-android-lib/avail-tablet-dapp.apk
 Lib integration at https://github.com/seetadev/EthGarage/tree/main/work-order-mgr-avail-da-layer/avail-lc-android-lib
 demo, screenshots at https://drive.google.com/drive/u/1/folders/19C_rphxhFje9zgcCKu54lBq7oQ7reKJP and https://drive.google.com/drive/u/1/folders/1Z2sfjos3oJWJrxmbY_tw0mU1yvgQ0NA_
@@ -22,7 +24,10 @@ Wish to share our Avail addresses:
 [1] 5CMLgLMsgj6kbtXDaHZY19g2FzujSHGRn3oqmh1WEGh3K6hW 
 [2] 5Dqyi6FbQBURFDAivKwLPSTkxv3fa4Uj4qfcd7pTe18FmCex  
 
-Sign Protocol: We are using Sign Protocol for -
+
+## Sign Protocol
+
+We are using Sign Protocol for -
 
 Attestation Hub Contract for Vehicle Service and Repair Work Orders, Invoices and Reports: We are extending the Sign Protocol to develop the Attestation Hub smart contract for Vehicle Service and Repair Work Orders, Invoices and Reports. We wish to enable vehicle owners to use Sign Protocol for all their vehicle insurance-claim transaction needs and collaborating with Third Party administrators in case of any urgent requirements. 
 Link: https://github.com/seetadev/EthGarage/tree/main/arb-sign-vehicle-maintenance and https://zk-validate.vercel.app/
@@ -41,7 +46,7 @@ Link: https://github.com/seetadev/EthGarage/tree/main/arb-sign-vehicle-maintenan
 We are developing Account Abstraction tools using Sign Protocol to support operations like sending DAI and USDC payment amounts, zk signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability.
 
 
-Arbitrum:
+## Arbitrum
 
 We are using Arbitrum and Farcaster to develop Repair NFT badges and marketplace with NFT badges issued to Vehicle Service providers on completion of repair work/vehicle servicing built using Arbitrum Stylus programs in Rust. We are extending the starter template for writing Arbitrum Stylus programs in Rust using the stylus-sdk. It includes a Rust implementation of a basic counter Ethereum smart contract.
 Demo Video at https://drive.google.com/drive/u/1/folders/1Z2sfjos3oJWJrxmbY_tw0mU1yvgQ0NA_
@@ -58,7 +63,9 @@ Tablet dapp on Arbitrum at https://github.com/seetadev/EthGarage/blob/main/work-
 Web3 Monitor Anywhere module on Arbitrum: For developers building cross-platform monitoring dapps on Arbitrum with low code OSS spreadsheet while retaining dapp core principles and flexibility. Please visit https://ethercalc.net/veg1fcob7fe3 and https://github.com/seetadev/EthGarage/tree/main/arb-sign-vehicle-maintenance
 
 
-Risc 0: We are developing a KYC decentralized application using Risc0 ZKVM for vehicle owners and vehicle service providers that allows them to verify and mint their identity as an NFT enabling onchain identity verification with zero-knowledge proofs.
+## Risc 0 
+
+We are developing a KYC decentralized application using Risc0 ZKVM for vehicle owners and vehicle service providers that allows them to verify and mint their identity as an NFT enabling onchain identity verification with zero-knowledge proofs.
 
 Link: https://github.com/seetadev/EthGarage/tree/main/risc0-foundry-zk-validate/zk-kyc-risc0-vehicle-owners-mechanic
 
@@ -75,7 +82,9 @@ Link: https://github.com/seetadev/EthGarage/tree/main/work-order-mgr-avail-da-la
 We are also trying to implement XMTP Chat for vehicle owners and service administrators in a particular region using Risc0 ZKVM with CyberConnect functions. We are enabling interoperability of the Farcaster frames developed with OpenFrames and communicating the vehicle maintenance and billing/invoicing related messages on XMTP. Receipts can also be shared with vehicle owners via XMTP.
 
 
-Filecoin: Filecoin IPC and Filecoin Virtual Machine (FVM) enables us to use building blocks exposed through interfaces, enabling the construction of incident archiving solutions. This improves better outcomes for vehicle maintenance, service and repair. We are using FVM and Filecoin IPC for:
+## Filecoin 
+
+Filecoin IPC and Filecoin Virtual Machine (FVM) enables us to use building blocks exposed through interfaces, enabling the construction of incident archiving solutions. This improves better outcomes for vehicle maintenance, service and repair. We are using FVM and Filecoin IPC for:
 
 Creating a Vehicle Service Ticket NFT on the FVM for NFC tags of service and repair providers to improve service/repair operations, decentralized NFT-based voting system for contract work by service providers, Votes are uploaded to IPFS with the most recent vote linking to one before.
 
@@ -95,7 +104,9 @@ Automated Workflow for decentralized voting for service providers and DAOs:
 DAOs create a RFP for providing service or maintenance on the dapp. Service providers can join a RFP by minting an NFT of that RFP. Service providers that have a certain RFP's NFT are eligible to create proposals and vote on them. Voting is gasless and the vote is stored on IPFS and Filecoin with the most recent vote linking to one before.
 
 
-Neon EVM:  We are developing a NeonVM utiliy token (Park Pro Token) using Neon transfer SDK, Open Zeppelin and enabling Smart incentivization using both Ethereum and Solana, Gnosis Pay with QR code dapp, EtherCalc.
+## Neon EVM  
+
+We are developing a NeonVM utiliy token (Park Pro Token) using Neon transfer SDK, Open Zeppelin and enabling Smart incentivization using both Ethereum and Solana, Gnosis Pay with QR code dapp, EtherCalc.
 
 We are integrating the Park Pro Token with EtherCalc where we are maintaining a list of vehicle service providers (Ethercalc link of vehicle service providers: https://ethercalc.net/veg1fcob7fe3)
 
@@ -109,7 +120,9 @@ We are using Neon transfer SDK and NeonVM utiliy token (Park Pro Token) to enabl
 - User-friendly interface for convenient navigation and control over your digital assets.
 
 
-Gnosis Chain: Vehicle Repair and Service NFTs on Farcaster and Gnosis Chain enable:
+## Gnosis Chain 
+
+Vehicle Repair and Service NFTs on Farcaster and Gnosis Chain enable:
 - Enable hyperlocal vehicle service and repair delivery information.
 - Enable QR code based blockchain payments at parking sites with support for key blockchain platforms.
 - Enhance road safety through smart incentivization of incident reporting by citizens.

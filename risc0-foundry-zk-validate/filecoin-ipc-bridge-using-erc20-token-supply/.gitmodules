@@ -1,0 +1,12 @@
+[submodule "axelar-token/lib/openzeppelin-contracts"]
+	path = axelar-token/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "axelar-token/lib/forge-std"]
+	path = axelar-token/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "axelar-token/lib/interchain-token-service"]
+	path = axelar-token/lib/interchain-token-service
+	url = https://github.com/axelarnetwork/interchain-token-service
+[submodule "axelar-token/lib/axelar-gmp-sdk-solidity"]
+	path = axelar-token/lib/axelar-gmp-sdk-solidity
+	url = https://github.com/axelarnetwork/axelar-gmp-sdk-solidity
